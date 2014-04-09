@@ -1,0 +1,138 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+<!--
+  <g:HorizontalPanel height = "400px" width = "400px">
+  
+  <g:HorizontalPanel width = "100px"  ui:field="testArea1"/>
+  
+  <g:HorizontalPanel width = "100px"  ui:field="testArea2"/>
+  
+  <g:HorizontalPanel width = "100px"  ui:field="testArea3"/>
+  
+  <g:HorizontalPanel width = "100px"  ui:field="testArea4"/>
+  
+  <g:Button ui:field="skipButton" text="SKIP"/>
+   
+  </g:HorizontalPanel>
+ -->
+
+  <g:VerticalPanel height="2360px" width="2360px">
+  
+    <g:HorizontalPanel height="500px">
+      <!-- utilize the left top corner as the test area temporarily -->
+      <g:VerticalPanel width="500px">
+            <g:HorizontalPanel width = "100px"  ui:field="testArea1"/>
+            <g:HorizontalPanel width = "100px"  ui:field="testArea2"/>
+            <g:HorizontalPanel width = "100px"  ui:field="testArea3"/>
+            <g:HorizontalPanel width = "100px"  ui:field="testArea4"/>
+            <g:HorizontalPanel width = "100px"  ui:field="testArea5"/>
+      </g:VerticalPanel>
+      
+      <g:VerticalPanel width="1360px">
+      
+      <g:HorizontalPanel height="25px"/>
+      <g:HorizontalPanel height="100px" ui:field="upHandArea"/>
+      <g:HorizontalPanel height="25px"/>
+      <g:HorizontalPanel height="100px" ui:field="upMeldArea"/>
+      <g:HorizontalPanel height="25px"/>
+      <g:HorizontalPanel height="100px" ui:field="upWallArea"/>
+      <g:HorizontalPanel height="25px"/>
+       <g:HorizontalPanel height="100px" ui:field="upCastArea"/>
+      
+      </g:VerticalPanel>
+      
+      <g:VerticalPanel width="500px"/>
+    </g:HorizontalPanel>
+    
+    <g:HorizontalPanel height="1360px">
+      <g:HorizontalPanel width="500px">
+        <g:VerticalPanel width="25px"/>
+        <g:VerticalPanel width="100px" ui:field="leftHandArea"/>
+        <g:VerticalPanel width="25px"/>
+        <g:VerticalPanel width="100px" ui:field="leftMeldArea"/>
+        <g:VerticalPanel width="25px"/>
+        <g:VerticalPanel width="100px" ui:field="leftWallArea"/>
+        <g:VerticalPanel width="25px"/>
+        <g:VerticalPanel width="100px" ui:field="leftCastArea"/>
+      </g:HorizontalPanel>
+      
+      <g:VerticalPanel width="1360px" height="1360px">
+       <!--  <g:HorizontalPanel height="600px"/> -->
+          <g:HorizontalPanel height="500px" width="1360px">
+            <g:HorizontalPanel width="600px"/>
+            <g:HorizontalPanel width="160px" ui:field="specialTileArea"/>
+            <g:HorizontalPanel width="600px"/>
+          </g:HorizontalPanel>
+        <!--  <g:HorizontalPanel height="600px"/> -->
+        <g:HorizontalPanel height="700px" width="1360px">
+          <g:HorizontalPanel height="700px" width="430px"/>
+          <g:FlexTable height="700px" width="500px" ui:field="animationArea"/>
+          <g:HorizontalPanel height="700px" width="430px"/>
+        </g:HorizontalPanel>
+        
+        <g:HorizontalPanel height="60px"/>
+        
+        <g:HorizontalPanel height="100px" width="1360px">
+          <g:HorizontalPanel height="100px" width="530px"/>
+          
+          <g:HorizontalPanel height="100px" width="150px">
+          <g:Button ui:field="pieceMoving" height="50px" width="80px" text="Piece Moving"/>
+          </g:HorizontalPanel>
+          
+          <g:HorizontalPanel height="100px" width="150px">
+          <g:Button ui:field="dndMoving" height="50px" width="80px" text="DND Moving"/>
+          </g:HorizontalPanel>
+          
+          <g:HorizontalPanel height="100px" width="530px"/>
+        </g:HorizontalPanel>
+      </g:VerticalPanel>
+      
+      
+      
+      <g:HorizontalPanel width="500px">
+        <g:VerticalPanel width="100px" ui:field="rightCastArea"/>
+        <g:VerticalPanel width="25px"/>
+        <g:VerticalPanel width="100px" ui:field="rightWallArea"/>
+        <g:VerticalPanel width="25px"/>
+        <g:VerticalPanel width="100px" ui:field="rightMeldArea"/>
+        <g:VerticalPanel width="25px"/>
+        <g:VerticalPanel width="100px" ui:field="rightHandArea"/>
+        <g:VerticalPanel width="25px"/>
+      </g:HorizontalPanel>
+    </g:HorizontalPanel>
+    
+    <g:HorizontalPanel height="500px">
+      <g:VerticalPanel width="500px">
+        <g:HorizontalPanel height="400px"/>
+        <g:HorizontalPanel height="100px" ui:field="selectedArea"/>
+      </g:VerticalPanel>
+      
+      <g:VerticalPanel width="1360px">
+      
+      <g:HorizontalPanel height="100px" ui:field="downCastArea"/>
+      <g:HorizontalPanel height="25px"/>
+      <g:HorizontalPanel height="100px" ui:field="downWallArea"/>
+      <g:HorizontalPanel height="25px"/>
+      <g:HorizontalPanel height="100px" ui:field="downMeldArea"/>
+      <g:HorizontalPanel height="25px"/>
+      <g:HorizontalPanel height="100px" ui:field="downHandArea"/>
+      <g:HorizontalPanel height="25px"/>
+      
+      </g:VerticalPanel>
+      
+      <g:VerticalPanel width="500px">
+          <g:HorizontalPanel height="400px"/>
+          
+          
+          <g:HorizontalPanel height="100px">
+             <g:Button ui:field="chiButton" text="CHI"/>
+             <g:Button ui:field="pengButton" text="PENG"/>
+             <g:Button ui:field="huButton"  text="HU"/>
+             <g:Button ui:field="skipButton" text="SKIP"/>
+          </g:HorizontalPanel>
+      </g:VerticalPanel>
+    </g:HorizontalPanel>
+    
+  </g:VerticalPanel>
+</ui:UiBinder>
